@@ -1,0 +1,16 @@
+name: Modest theme
+type: theme
+base theme: stark
+description: Custom theme
+package: Custom
+core_version_requirement: ^10
+libraries:
+  - modest_theme/global
+regions:
+  header: 'Header'
+  main: 'Main'
+  services: 'Services'
+  facts_section: 'Fact section'
+  portfolio: 'Portfolio'
+  client_section: 'Client Section'
+  footer: 'Footer'

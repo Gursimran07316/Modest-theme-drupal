@@ -1,0 +1,21 @@
+# Main theme library.
+global:
+  js:
+    js/bootstrap.js: {}
+    js/custom.js: {}
+    js/plugins.js: {}
+    jquery/jquery.gmap3.min.js: {}
+    jquery/jquery-migrate-1.2.1.min.js: {}
+  css:
+    component:
+      "//fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap":
+        { type: external }
+    base:
+      css/templatemo-style.css: {}
+      css/font-awesome.min.css: {}
+      css/animate.css: {}
+
+  dependencies:
+    - core/jquery
+
+   
